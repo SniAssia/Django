@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            {% block title%}
+            base_one
+            {% endblock %}
+        </title>
+        
+    </head>
+    <body>
+        <nav>navigation here : </nav>
+        <main>
+            {% block content %}
+            {% endblock %}
+        </main>
+        <footer>footer</footer>
+    </body>
+</html>
