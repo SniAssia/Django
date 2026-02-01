@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page_title }}</title>
+</head>
+<body>
+    <h1>our team members are : </h1>
+    <ul>
+        {% for member in members %}
+            <li>{{member}}</li>
+        {% empty %}
+            <p>no members found here</p>
+        {% endfor %}
+    </ul>
+    <a href="/">go back to home</a>
+</body>

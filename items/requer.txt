@@ -1,0 +1,13 @@
+asgiref==3.11.0
+Django==6.0.1
+django-debug-toolbar==6.2.0
+python-dotenv==1.2.1
+sqlparse==0.5.5
+ 
+
+to create app : pyhton manage.py startapp myapp
+
+
+to run : 
+python manage.py migrate 
+python manage.py runserver
